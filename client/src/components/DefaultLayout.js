@@ -92,7 +92,8 @@ class DefaultLayout extends React.Component {
              </div> 
 
               <div style={{display : this.state.collapsed ? 'none' : 'inline'}}>
-                  <h5 className="mr-2"><b>{user.username}</b></h5>
+                <Link to = '/profile' ><h5 className="mr-2"><b>{user.username}</b></h5></Link>
+                  
              </div>
 
            </div>
