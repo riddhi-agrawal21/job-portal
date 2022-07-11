@@ -122,3 +122,7 @@ button{
 h1{
   font-size: 35px !important;
 }
+.logo{
+  margin-top: 10px !important; 
+  border-bottom: 3px solid !important;
+}
