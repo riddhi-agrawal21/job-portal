@@ -23,7 +23,7 @@ const dispatch = useDispatch()
   return (
     <div>
       <DefaultLayout>
-        <h1>postJob</h1>
+        <h1>PostJob</h1>
         <Tabs defaultActiveKey="0" activeKey={activeTab}> 
           <TabPane tab="Job Info" key="0">
            <Form layout="vertical"  onFinish={onFirstFormFinish}>
